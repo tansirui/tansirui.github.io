@@ -7,16 +7,18 @@
   
   <title>MarkDown | 测试博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="tensorflow安装：使用pip安装，需更换清华的源，速度快。 在user文件夹下新建pip。新建pip.ini文件，写入 [global] timeout = 6000  index-url = https:&#x2F;&#x2F;pypi.tuna.tsinghua.edu.cn&#x2F;simple  trusted-host = pypi.tuna.tsinghua.edu.cn  然后使用pip install">
+  <meta name="description" content="Hexo官网 需求环境Nodejs 安装长期支持版本即可 安装npm类似于apt-get npm install -g hexo-cli hexo init “floder” 初始化站点的目录 npm install 切换到站点目录安装依赖 hexo s 启动本地站点 _config.yml 该文件下修改主页相关配置 hexo clean 清除生成的数据 hexo g 生成新的HTML界面 博客中">
 <meta name="keywords" content="TEST">
 <meta property="og:type" content="article">
 <meta property="og:title" content="MarkDown">
 <meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;23&#x2F;MarkDown&#x2F;index.html">
 <meta property="og:site_name" content="测试博客">
-<meta property="og:description" content="tensorflow安装：使用pip安装，需更换清华的源，速度快。 在user文件夹下新建pip。新建pip.ini文件，写入 [global] timeout = 6000  index-url = https:&#x2F;&#x2F;pypi.tuna.tsinghua.edu.cn&#x2F;simple  trusted-host = pypi.tuna.tsinghua.edu.cn  然后使用pip install">
+<meta property="og:description" content="Hexo官网 需求环境Nodejs 安装长期支持版本即可 安装npm类似于apt-get npm install -g hexo-cli hexo init “floder” 初始化站点的目录 npm install 切换到站点目录安装依赖 hexo s 启动本地站点 _config.yml 该文件下修改主页相关配置 hexo clean 清除生成的数据 hexo g 生成新的HTML界面 博客中">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-11-23T07:33:28.373Z">
+<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;23&#x2F;MarkDown&#x2F;1.png">
+<meta property="og:updated_time" content="2019-11-23T08:21:59.114Z">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;23&#x2F;MarkDown&#x2F;1.png">
   
     <link rel="alternate" href="/atom.xml" title="测试博客" type="application/atom+xml">
   
@@ -85,36 +87,27 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="tensorflow"><a href="#tensorflow" class="headerlink" title="tensorflow"></a>tensorflow</h1><h2 id="安装：使用pip安装，需更换清华的源，速度快。"><a href="#安装：使用pip安装，需更换清华的源，速度快。" class="headerlink" title="安装：使用pip安装，需更换清华的源，速度快。"></a>安装：使用pip安装，需更换清华的源，速度快。</h2><ul>
-<li>在user文件夹下新建pip。新建pip.ini文件，写入</li>
-<li>[global]</li>
-<li>timeout = 6000 </li>
-<li>index-url = <a href="https://pypi.tuna.tsinghua.edu.cn/simple" target="_blank" rel="noopener">https://pypi.tuna.tsinghua.edu.cn/simple</a> </li>
-<li>trusted-host = pypi.tuna.tsinghua.edu.cn </li>
-<li>然后使用pip install tensorflow即可</li>
-</ul>
-<h1 id="OpenCV"><a href="#OpenCV" class="headerlink" title="OpenCV"></a>OpenCV</h1><h2 id="色彩空间"><a href="#色彩空间" class="headerlink" title="色彩空间"></a>色彩空间</h2><p>RGB HSV HIS YCrCb yuv</p>
-<h2 id="H-S-V"><a href="#H-S-V" class="headerlink" title="H S V"></a>H S V</h2><p>使用hsv可以容易区分色彩</p>
-<h1 id="双线性模糊可以达到美颜的效果"><a href="#双线性模糊可以达到美颜的效果" class="headerlink" title="双线性模糊可以达到美颜的效果"></a>双线性模糊可以达到美颜的效果</h1><h1 id="git使用说明"><a href="#git使用说明" class="headerlink" title="git使用说明"></a>git使用说明</h1><ul>
-<li>git config –gobal user.name “” 配置姓名</li>
-<li>git config –gobal user.email   配置邮箱</li>
-<li>git init      在本地目录创建一个仓库</li>
-<li>git status 查看目录下文件的状态</li>
-<li>git add 添加文件，可以单独添加文件，也可以全部添加</li>
-</ul>
-<p>一般情况下，我们总会有些文件不需要纳入Git 的管理，比如：</p>
-<p>编译生成的中间文件、临时文件、可执行文件等等；<br>日志文件<br>……<br>解决方法：在工作目录下创建一个名为.gitignore的文件来列出忽略文件的模式。</p>
-<p>文件.gitignore的格式规范如下：</p>
-<p>所有空行或者以#开头的行会被Git忽略；<br>可以使用标准的glob模式匹配；<br>匹配模式可以以（/）开头防止递归；<br>匹配模式可以以（/）结尾指定目录；<br>要忽略指定模式以外的文件或目录，可以在模式前加（!）表示取反；</p>
-<ul>
-<li>git log查看提交记录</li>
-<li>git reset –hard &lt;&gt; 滚动到指定版本号</li>
-</ul>
+        <h1 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h1><p><a href="https://hexo.io/" target="_blank" rel="noopener">官网</a></p>
+<h2 id="需求环境"><a href="#需求环境" class="headerlink" title="需求环境"></a>需求环境</h2><p>Nodejs 安装长期支持版本即可</p>
+<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>npm类似于apt-get</p>
+<p>npm install -g hexo-cli</p>
+<p>hexo init “floder” <strong>初始化站点的目录</strong></p>
+<p>npm install <em>切换到站点目录安装依赖</em></p>
+<p>hexo s <strong><em>启动本地站点</em></strong></p>
+<p>_config.yml <strong>该文件下修改主页相关配置</strong></p>
+<p>hexo clean 清除生成的数据</p>
+<p>hexo g 生成新的HTML界面</p>
+<p>博客中的文章存在source_posts文件夹下，文件开头为配置信息</p>
+<p><img src="1.png" alt="图一"></p>
+<p>部署到github需要注意，仓库名必须和用户名相同</p>
+<p>npm install hexo-deployer-git –save <strong>安装插件</strong></p>
+<p>hexo d 推送文件到github</p>
+<p><del>华丽丽的分割线</del></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/11/23/MarkDown/" data-id="ck3b9btuf000038tu2ea95iae" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/11/23/MarkDown/" data-id="ck3bb200s00000otu749x5he6" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/TEST/" rel="tag">TEST</a></li></ul>
